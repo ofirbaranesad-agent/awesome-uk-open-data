@@ -1,7 +1,7 @@
 {
   "name": "Awesome UK Data",
   "repo_slug": "awesome-uk-open-data",
-  "generated_at": "2026-11-08",
+  "generated_at": "2026-11-09",
   "entry_count": 60,
   "sections": [
     {
@@ -31,7 +31,7 @@
         {
           "name": "Data.gov.uk",
           "url": "https://www.data.gov.uk/",
-          "description": "UK open data catalog: 10,000+ datasets from UK government departments and public bodies, with a CKAN API and DCAT metadata.",
+          "description": "UK open data catalog: datasets from UK government departments and public bodies, with a CKAN API and DCAT metadata.",
           "tags": [
             "Portal",
             "Open"
@@ -70,7 +70,7 @@
         {
           "name": "Planning Data",
           "url": "https://www.planning.data.gov.uk/",
-          "description": "Ministry of Housing, Communities and Local Government platform for planning and housing data in England. One API serves over 100 datasets, from conservation areas and listed buildings to brownfield land and flood risk, and every dataset can be downloaded in bulk.",
+          "description": "Ministry of Housing, Communities and Local Government platform for planning and housing data in England. One API covers conservation areas and listed buildings, brownfield land and flood risk, and every dataset can be downloaded in bulk.",
           "tags": [
             "API",
             "Open"
@@ -96,7 +96,7 @@
         {
           "name": "GOV.UK Trade Tariff API",
           "url": "https://www.gov.uk/trade-tariff",
-          "description": "The GOV.UK Trade Tariff API is HMRC's JSON interface to the UK Trade Tariff, covering commodity codes, duties and VAT rates, quota measures and historical tariff data. It is updated daily, with documentation at docs.trade-tariff.service.gov.uk and an entry in the government API catalogue that places the data under the Open Government Licence v3.0. The sections endpoint returned 21 sections on 29 September 2026, and the heading and commodity endpoints return the goods nomenclature records behind a code. The newer service on api.trade-tariff.service.gov.uk issues OAuth credentials through HMRC's developer portal, and rate limiting came in from September 2026.",
+          "description": "The GOV.UK Trade Tariff API is HMRC's JSON interface to the UK Trade Tariff, covering commodity codes, duties and VAT rates, quota measures and historical tariff data. It is updated daily, with documentation at docs.trade-tariff.service.gov.uk and an entry in the government API catalogue that places the data under the Open Government Licence v3.0. The sections endpoint lists the tariff sections, and the heading and commodity endpoints return the goods nomenclature records behind a code. The newer service on api.trade-tariff.service.gov.uk issues OAuth credentials through HMRC's developer portal, and rate limiting came in from September 2026.",
           "tags": [
             "API",
             "Key"
@@ -200,7 +200,7 @@
         {
           "name": "UK Parliament Members API",
           "url": "https://members-api.parliament.uk/",
-          "description": "The UK Parliament Members API lists MPs and peers with their party, house, and dates of service, and reports the state of the parties in each house. The state-of-the-parties call takes a house, 1 for the Commons and 2 for the Lords, and a date, and returns each party with the seats it holds and the members counted behind them: on 1 October 2026 the Commons held 650 seats across 18 parties, with Labour on 403 and the Conservatives on 118. It answers without a key and sits alongside the main Parliament APIs on api.parliament.uk, and Parliament publishes the data under the Open Parliament Licence v3.0.",
+          "description": "The UK Parliament Members API lists MPs and peers with their party, house, and dates of service, and reports the state of the parties in each house. The state-of-the-parties call takes a house, 1 for the Commons and 2 for the Lords, and a date, and returns each party with the seats it holds and the members counted behind them. It answers without a key and sits alongside the main Parliament APIs on api.parliament.uk, and Parliament publishes the data under the Open Parliament Licence v3.0.",
           "tags": [
             "API",
             "Open"
@@ -231,7 +231,7 @@
         {
           "name": "Nomis dataset definitions API",
           "url": "https://www.nomisweb.co.uk/api/v01/dataset/def.sdmx.json",
-          "description": "The SDMX dataset definitions catalogue behind Nomis, listing every dataset with its id, name, maintenance status, units, keywords and last-updated stamp. On 19 October 2026 it returned 1,617 definitions, 1,180 marked current and 437 historical, and answers without a key.",
+          "description": "The SDMX dataset definitions catalogue behind Nomis, listing every dataset with its id, name, maintenance status, units, keywords and last-updated stamp. It includes current and historical definitions and answers without a key.",
           "tags": [
             "API",
             "Open"
@@ -340,7 +340,7 @@
         {
           "name": "NHSBSA Open Data Portal",
           "url": "https://opendata.nhsbsa.net/",
-          "description": "The NHS Business Services Authority open data portal, free to use and reuse under the Open Government Licence. Its themes cover community prescribing and dispensing, dental activity, dispensing contractors, hospital and provider medicines, and digital service performance, alongside ad hoc statistical releases and the FOI disclosure log. Files download as CSV, XLSX, PDF and ZIP, and the portal listed 2,158 packages on 28 September 2026.",
+          "description": "The NHS Business Services Authority open data portal, free to use and reuse under the Open Government Licence. Its themes cover community prescribing and dispensing, dental activity, dispensing contractors, hospital and provider medicines, and digital service performance, alongside ad hoc statistical releases and the FOI disclosure log. Files download as CSV, XLSX, PDF and ZIP.",
           "tags": [
             "Portal",
             "Open"
@@ -353,7 +353,7 @@
         {
           "name": "UKHSA data dashboard",
           "url": "https://ukhsa-dashboard.data.gov.uk/",
-          "description": "UK Health Security Agency dashboard for public health data in England, covering respiratory viruses, healthcare-associated infections and antimicrobial resistance. The same data is available through a documented API at api.ukhsa-dashboard.data.gov.uk and bulk chart downloads. The API's HIV topic carries annual new diagnoses for England: on 19 October 2026 it held 35 points from 2015 to 2024, 10 of them the national total and five each for the named population groups from 2020. The national total was 4,506 in 2015, 2,240 in 2020 and 2,773 in 2024, and every point answers without a key.",
+          "description": "UK Health Security Agency dashboard for public health data in England, covering respiratory viruses, healthcare-associated infections and antimicrobial resistance. The same data is available through a documented API at api.ukhsa-dashboard.data.gov.uk and bulk chart downloads. The API answers without a key.",
           "tags": [
             "Data",
             "Open"
@@ -423,7 +423,7 @@
         {
           "name": "British Geological Survey OpenGeoscience",
           "url": "https://www.bgs.ac.uk/geological-data/opengeoscience/",
-          "description": "BGS geoscience data for the UK: OpenGeoscience publishes maps, borehole log scans, photographs and digital datasets free of charge, alongside WMS and WFS map services, a CSW catalogue for dataset discovery and a download service for geotechnical AGS data. The BGS ArcGIS Open Data Hub carried 72 datasets in its DCAT feed on 27 September 2026. OpenGeoscience data is under the Open Government Licence wherever possible, with a \"Contains British Geological Survey materials © UKRI\" acknowledgement.",
+          "description": "BGS geoscience data for the UK: OpenGeoscience publishes maps, borehole log scans, photographs and digital datasets free of charge, alongside WMS and WFS map services, a CSW catalogue for dataset discovery and a download service for geotechnical AGS data. The BGS ArcGIS Open Data Hub exposes its catalogue through a DCAT feed. OpenGeoscience data is under the Open Government Licence wherever possible, with a \"Contains British Geological Survey materials © UKRI\" acknowledgement.",
           "tags": [
             "Portal",
             "Open"
@@ -436,7 +436,7 @@
         {
           "name": "Natural England Open Data Geoportal",
           "url": "https://naturalengland-defra.opendata.arcgis.com/",
-          "description": "Natural England's open data geoportal on the Defra ArcGIS Hub: more than 250 datasets covering Sites of Special Scientific Interest, National Nature Reserves, the England Coast Path, ancient woodland, moorland change and local nature recovery strategy areas. Each dataset downloads as CSV, Shapefile, GeoJSON, KML, GeoPackage or file geodatabase, and is also served through ArcGIS REST services.",
+          "description": "Natural England's open data geoportal on the Defra ArcGIS Hub: datasets covering Sites of Special Scientific Interest, National Nature Reserves, the England Coast Path, ancient woodland, moorland change and local nature recovery strategy areas. Each dataset downloads as CSV, Shapefile, GeoJSON, KML, GeoPackage or file geodatabase, and is also served through ArcGIS REST services.",
           "tags": [
             "Portal",
             "Open"
@@ -475,7 +475,7 @@
         {
           "name": "Defra UK-AIR (Air Information Resource)",
           "url": "https://uk-air.defra.gov.uk/",
-          "description": "Defra's air quality data archive: hourly measurements from more than 1,500 monitoring sites across the UK, split into automatic and non-automatic networks, with a data selector for custom extracts and preformatted raw files from the automatic network. Descriptive statistics and exceedance statistics sit alongside the measurements under the Open Government Licence v3.0.",
+          "description": "Defra's air quality data archive: hourly measurements from monitoring sites across the UK, split into automatic and non-automatic networks, with a data selector for custom extracts and preformatted raw files from the automatic network. Descriptive statistics and exceedance statistics sit alongside the measurements under the Open Government Licence v3.0.",
           "tags": [
             "Data",
             "Open"
@@ -488,7 +488,7 @@
         {
           "name": "Environmental Information Data Centre",
           "url": "https://eidc.ac.uk/",
-          "description": "The Environmental Information Data Centre is the UK's national data centre for terrestrial and freshwater sciences, part of the Natural Environment Research Council's Environmental Data Service and hosted by the UK Centre for Ecology & Hydrology. Its catalogue held 2,432 records on 29 September 2026, with topics running from biodiversity and hydrology to land cover and pollution, and it is certified as a trusted repository by CoreTrustSeal. Downloads arrive as zipped data packages, or over plain HTTP for large holdings such as CHESS-met, and the catalogue answers JSON requests directly. Licences are set per record rather than site-wide, so each dataset page states its own terms. From 5 October 2026 programmatic downloads need a Personal Access Token in place of basic authentication.",
+          "description": "The Environmental Information Data Centre is the UK's national data centre for terrestrial and freshwater sciences, part of the Natural Environment Research Council's Environmental Data Service and hosted by the UK Centre for Ecology & Hydrology. Its catalogue covers topics from biodiversity and hydrology to land cover and pollution, and it is certified as a trusted repository by CoreTrustSeal. Downloads arrive as zipped data packages, or over plain HTTP for large holdings such as CHESS-met, and the catalogue answers JSON requests directly. Licences are set per record rather than site-wide, so each dataset page states its own terms. From 5 October 2026 programmatic downloads need a Personal Access Token in place of basic authentication.",
           "tags": [
             "Portal",
             "Open"
@@ -501,7 +501,7 @@
         {
           "name": "National River Flow Archive",
           "url": "https://nrfa.ceh.ac.uk/",
-          "description": "The National River Flow Archive is the UK's official record of river flow data, based at the UK Centre for Ecology & Hydrology and operated on behalf of Defra, the Scottish Government and the Welsh Government. It curates records from more than 1,600 gauging stations, many reaching back to the 1960s, and provides bulk downloads including the Peak Flow Dataset (version 15, released on 27 August 2026) alongside a documented REST API; the station-ids endpoint returned 1,604 stations on 3 October 2026. Access is granted under the NRFA click-through licence, which asks users to acknowledge \"Data from the UK National River Flow Archive\".",
+          "description": "The National River Flow Archive is the UK's official record of river flow data, based at the UK Centre for Ecology & Hydrology and operated on behalf of Defra, the Scottish Government and the Welsh Government. It curates records from gauging stations, many reaching back to the 1960s, and provides bulk downloads including the Peak Flow Dataset (version 15, released on 27 August 2026) alongside a documented REST API; the station-ids endpoint lists the stations. Access is granted under the NRFA click-through licence, which asks users to acknowledge \"Data from the UK National River Flow Archive\".",
           "tags": [
             "Data",
             "Open"
@@ -514,7 +514,7 @@
         {
           "name": "Marine Directorate Data",
           "url": "https://data.marine.gov.scot/",
-          "description": "The Marine Directorate of the Scottish Government publishes its marine data through this portal, covering fisheries and aquaculture, marine planning, marine renewables, and freshwater and marine monitoring. The catalogue runs on DKAN, so it is also available as a DCAT data.json feed and a service endpoint, and on 3 October 2026 the feed listed 302 datasets, each with its own licence and a Digital Object Identifier. The portal states that the data is free to download and gives a pre-formatted citation for each record.",
+          "description": "The Marine Directorate of the Scottish Government publishes its marine data through this portal, covering fisheries and aquaculture, marine planning, marine renewables, and freshwater and marine monitoring. The catalogue runs on DKAN, so it is also available as a DCAT data.json feed and a service endpoint, and the feed lists the datasets, each with its own licence and a Digital Object Identifier. The portal states that the data is free to download and gives a pre-formatted citation for each record.",
           "tags": [
             "Portal",
             "Open"
@@ -566,7 +566,7 @@
         {
           "name": "Met Office Climate Data Portal",
           "url": "https://climatedataportal.metoffice.gov.uk/",
-          "description": "The Met Office Climate Data Portal publishes the UK's climate observations and projections as downloadable layers and GIS services. Its DCAT feed carried 98 datasets on 1 October 2026, with distributions in ZIP, CSV, GeoJSON, KML, TXT, XLSX, GPKG and GDB, plus an ArcGIS GeoServices REST API for each published layer. The holdings cover monthly and annual temperature, precipitation and wind-speed projections on 12km and 5km grids and at local-authority and sub-local-authority boundaries, sea level projections to 2100, the UK shared socioeconomic pathway scenarios, and gridded observations for 1991 to 2020. Licences are set per dataset, and 89 of the 98 state the Open Government Licence v3.0.",
+          "description": "The Met Office Climate Data Portal publishes the UK's climate observations and projections as downloadable layers and GIS services. Its DCAT feed carries the datasets, with distributions in ZIP, CSV, GeoJSON, KML, TXT, XLSX, GPKG and GDB, plus an ArcGIS GeoServices REST API for each published layer. The holdings cover monthly and annual temperature, precipitation and wind-speed projections on 12km and 5km grids and at local-authority and sub-local-authority boundaries, sea level projections to 2100, the UK shared socioeconomic pathway scenarios, and gridded observations for 1991 to 2020. Licences are mostly the Open Government Licence v3.0.",
           "tags": [
             "Data",
             "Open"
@@ -641,7 +641,7 @@
         {
           "name": "NESO Data Portal",
           "url": "https://neso.energy/data-portal",
-          "description": "The National Energy System Operator publishes its open data on a CKAN portal at api.neso.energy, which held 131 datasets on 18 October 2026: generation mix, demand, balancing services, system frequency, interconnector flows and system forecasts for Great Britain. Every dataset answers without a key and carries the NESO Open Data Licence, reported in the metadata as `ESO`. The largest is Historic GB Generation Mix, one row per half hour from January 2009 with a megawatt column per fuel: it held 311,937 half hours on 18 October 2026, and one datastore search call can sort it and take the newest week in a single request. The portal moved house when the operator became NESO, and the old data.nationalgrideso.com hostname no longer resolves.",
+          "description": "The National Energy System Operator publishes its open data on a CKAN portal at api.neso.energy, covering generation mix, demand, balancing services, system frequency, interconnector flows and system forecasts for Great Britain. Every dataset answers without a key and carries the NESO Open Data Licence, reported in the metadata as `ESO`. The largest is Historic GB Generation Mix, one row per half hour from January 2009 with a megawatt column per fuel, and one datastore search call can sort it and take the newest week in a single request. The portal moved house when the operator became NESO, and the old data.nationalgrideso.com hostname no longer resolves.",
           "tags": [
             "Portal",
             "Open"
@@ -654,7 +654,7 @@
         {
           "name": "NESO Historic GB Generation Mix",
           "url": "https://api.neso.energy/dataset/88313ae5-94e4-4ddc-a790-593554d8c6b9",
-          "description": "The National Energy System Operator publishes Great Britain's half-hourly generation mix as one row per half hour from January 2009, with a megawatt column for gas, coal, nuclear, wind, embedded wind, hydro, imports, biomass, other, solar and storage. The datastore held 312,043 half hours on 20 October 2026, and a single search returns the newest 336 rows for a seven-day window. It answers without a key, and the dataset page records the NESO Open Data Licence in its metadata.",
+          "description": "The National Energy System Operator publishes Great Britain's half-hourly generation mix as one row per half hour from January 2009, with a megawatt column for gas, coal, nuclear, wind, embedded wind, hydro, imports, biomass, other, solar and storage. A single search returns the newest rows for a seven-day window. It answers without a key, and the dataset page records the NESO Open Data Licence in its metadata.",
           "tags": [
             "Data",
             "Open"
@@ -724,7 +724,7 @@
         {
           "name": "UKRI Gateway to Research",
           "url": "https://gtr.ukri.org/",
-          "description": "Gateway to Research (GtR) is the public catalogue of research and innovation funded by UK Research and Innovation. It indexes projects, organisations, people and outcomes, publishes the award data quarterly in the second week of April, July, October and January, and offers two REST APIs that return the catalogue as JSON without a key; on 2 October 2026 the project endpoint reported 158,710 projects across 15,871 pages of ten, the organisation endpoint 97,102 organisations, and the people endpoint 95,176 people. The site states the data is available under the Open Government Licence.",
+          "description": "Gateway to Research (GtR) is the public catalogue of research and innovation funded by UK Research and Innovation. It indexes projects, organisations, people and outcomes, publishes the award data quarterly in the second week of April, July, October and January, and offers REST APIs that return the catalogue as JSON without a key, including project, organisation and people endpoints. The site states the data is available under the Open Government Licence.",
           "tags": [
             "API",
             "Open"
@@ -794,7 +794,7 @@
         {
           "name": "Scottish Government Statistics",
           "url": "https://www.gov.scot/statistics/",
-          "description": "The Scottish Government publishes its official statistics and research on gov.scot, listed together in a statistics and research hub that held over 6,000 publications on 1 October 2026. Releases cover the economy, population, health, education, justice, transport, housing and the environment, and most carry spreadsheet tables alongside the report, such as the Excel tables for the quarterly housing statistics update and the Scottish Fish Farm Production Survey. Publications are grouped into collections, among them economy statistics and the fish farm production surveys. Content on gov.scot is available under the Open Government Licence v3.0 except for graphic assets and where stated otherwise.",
+          "description": "The Scottish Government publishes its official statistics and research on gov.scot, listed together in a statistics and research hub. Releases cover the economy, population, health, education, justice, transport, housing and the environment, and most carry spreadsheet tables alongside the report, such as the Excel tables for the quarterly housing statistics update and the Scottish Fish Farm Production Survey. Publications are grouped into collections, among them economy statistics and the fish farm production surveys. Content on gov.scot is available under the Open Government Licence v3.0 except for graphic assets and where stated otherwise.",
           "tags": [
             "Portal",
             "Open"

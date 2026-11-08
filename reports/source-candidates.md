@@ -7,8 +7,6 @@ Read from:
 - https://raw.githubusercontent.com/public-apis/public-apis/master/README.md
 - https://raw.githubusercontent.com/n0shake/Public-APIs/master/README.md
 
-4 candidates.
-
 | Entry | Where | Why | Stats |
 | --- | --- | --- | --- |
 | [National Grid ESO](https://data.nationalgrideso.com/) | Environment | great britain | not a repo |
